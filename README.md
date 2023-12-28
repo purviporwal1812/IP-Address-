@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-(design\finalDesign.png)
+(design/finalDesign.png)
 
 ### Links
 
