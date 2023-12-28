@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-(design/finalDesign.png)
+![Site preview](design\finalDesign.png?raw=true "Site Preview")
 
 ### Links
 
