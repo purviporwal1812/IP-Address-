@@ -45,5 +45,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Purvi Porwal](https://www.your-site.com)
+-Linkedin - (https://www.linkedin.com/in/purvi-porwal/))
 - Frontend Mentor - [@purviporwal1812](https://www.frontendmentor.io/profile/purviporwal1812)
