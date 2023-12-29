@@ -64,7 +64,6 @@ h3 {
   align-items: center;
   position: absolute;
   z-index: 900;
-
   margin-left: 15%;
   margin-top: -50px;
   border-radius: 0.5rem;
@@ -89,63 +88,55 @@ h3 {
 #map {
   height: 420px;
 }
-
-@media (max-width: 1020px) {
+@media (min-width: 375px) {
+  .blueImg {
+    background-image: url("images\pattern-bg-mobile.png");
+  }
+  h3 {
+    font-size: 100%;
+  }
   .container1 {
-    margin-top: 10px;
-    flex-direction: row; /* Stack children vertically on smaller screens */
-    height: auto; /* Allow the container to grow based on content */
-    overflow: hidden;
+    height: 80px;
+    margin-top: 0px;
+    width: 70%;
   }
   .container1 > div {
-    flex: 1;
-    padding: 50px;
-    border-right: none;
-    border-bottom: 1px solid #ccc;
-  }
-
-  .container1 > div:last-child {
-    border-bottom: none;
+    padding: 15px;
   }
 }
-@media (max-width: 80em) {
+@media (min-width: 640px) {
   h3 {
-    font-size: 2.5rem; /* Adjust font size for smaller screens */
+    font-size: 150%;
   }
-
   .container1 {
-    margin-top: 10px;
-    flex-direction: column; /* Stack children vertically on smaller screens */
-    height: auto; /* Allow the container to grow based on content */
-    overflow: hidden;
+    height: 80px;
+    margin-top: 0px;
+    width: 70%;
   }
-
   .container1 > div {
-    flex: none; /* Remove flex property to allow elements to stack */
-    width: 100%; /* Full width for smaller screens */
-    border-bottom: 1px solid #ccc; /* Add a border to separate sections */
-  }
-  .blueImg {
-    background-image: url("images/pattern-bg-mobile.png");
+    padding: 15px;
   }
 }
-
-@media (max-width: 40em) {
+@media (min-width: 768px) {
   h3 {
-    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    font-size: 200%;
   }
   .container1 {
-    margin-top: 10px;
-    flex-direction: column; /* Stack children vertically on smaller screens */
-    height: auto; /* Allow the container to grow based on content */
+    margin-top: -10px;
+    width: 70%;
+    height: 100px;
   }
-
   .container1 > div {
-    flex: none; /* Remove flex property to allow elements to stack */
-    width: 100%; /* Full width for smaller screens */
-    border-bottom: 1px solid #ccc; /* Add a border to separate sections */
+    padding: 25px;
   }
-  .blueImg {
-    background-image: url("images/pattern-bg-mobile.png");
+}
+@media (min-width: 1024px) {
+  h3 {
+    font-size: 300%;
+  }
+  .container1 {
+    margin-top: -20px;
+    width: 80%;
+    height: 150px;
   }
 }
