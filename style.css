@@ -106,6 +106,10 @@ h3 {
   .container1 > div {
     padding: 15px;
   }
+  .container1 > div {
+    flex: 1;
+    border-right: 0px solid #ccc;
+  }
   #map {
     order: 1; /* Shift the map down by changing the order in the flex container */
     height: 600px;
@@ -125,6 +129,11 @@ h3 {
   .container1 > div {
     padding: 15px;
   }
+  .container1 > div {
+    flex: 1;
+
+    border-right: 1px solid #ccc;
+  }
 }
 @media (min-width: 768px) {
   h3 {
@@ -137,6 +146,9 @@ h3 {
   }
   .container1 > div {
     padding: 25px;
+    flex: 1;
+
+    border-right: 1px solid #ccc;
   }
 }
 @media (min-width: 1024px) {
@@ -147,5 +159,8 @@ h3 {
     margin-top: -20px;
     width: 80%;
     height: 150px;
+    flex: 1;
+
+    border-right: 1px solid #ccc;
   }
 }
